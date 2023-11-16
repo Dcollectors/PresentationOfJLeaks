@@ -10,11 +10,11 @@ function onClickStart() {
 <template>
   <main style="height: 100%">
     <div class="content">
-      <h1 class="title">Effitiently Trimming the Fat</h1>
-      <h2 class="title2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt culpa vitae, accusamus placeat ipsa velit quasi, magni itaque in quae doloremque quisquam molestiae ea consequatur quo maiores ipsum id eius?</h2>
+      <h1 class="title">JLeaks: A Featured Resource Leak Repository Collected From Hundreds of Open-Source Java Projects</h1>
+      <h2 class="title2">JLeaks is a resource leaks repository collected from real-world projects which facilitates in-depth researches and evaluation of defect-related algorithms. Each defect in Leaks includes four aspects key information: project information, defect information, code characteristics, and file information.</h2>
     
       <div class="button-div">
-        <MyButton @click="onClickStart">Github</MyButton>
+        <MyButton @click="onClickStart">GITHUB</MyButton>
       </div>
     </div>
   </main>

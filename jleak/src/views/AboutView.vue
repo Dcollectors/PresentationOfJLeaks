@@ -39,4 +39,27 @@ const html = marked.parse(readme);
   padding: 64px 64px;
   // overflow:;
 }
+
+tr:nth-child(even) {
+  background-color: #11111111;
+  // color: white;
+}
+
+table {
+  margin: 16px 0;
+  border-top: 2px solid #123456;
+  border-bottom: 2px solid #123456;
+  border-collapse: collapse;
+
+  // &:first-of-type(tr) {
+  //   border-bottom: 2px solid #123456;
+  // }
+  thead {
+    tr {
+      border-bottom: 2px solid #123456;
+    }
+    // border-top: 2px solid #123456;
+    
+  }
+}
 </style>

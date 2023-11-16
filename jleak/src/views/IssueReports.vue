@@ -104,6 +104,10 @@ async function handleClickItem(entry: any) {
 </style>
 
 <style lang="scss" scoped>
+table {
+    border: none;
+}
+
 .root {
     padding: 24px 128px;
     display: flex;

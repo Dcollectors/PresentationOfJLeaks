@@ -16,7 +16,7 @@ const rootStyle = {
     <div class="header">
       <div class="link" @click="$router.push({name: 'home'})">Home</div>
       <div class="link" @click="$router.push({name: 'issue'})">Issue Reports</div>
-      <div class="link" @click="$router.push({name: 'about'})">Abount</div>
+      <div class="link" @click="$router.push({name: 'about'})">About</div>
       <div class="link" @click="handleClickGithub">Github</div>
     </div>
     <div class="fake-header"></div>
