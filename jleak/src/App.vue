@@ -7,7 +7,7 @@ function handleClickGithub() {
 }
 
 const rootStyle = {
-  background: `${back} no-repeat center center fixed`
+  background: `url(${back}) no-repeat center center fixed`
 }
 </script>
 
