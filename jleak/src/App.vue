@@ -1,13 +1,18 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
+import back from "@/assets/back.avif"
 
 function handleClickGithub() {
   window.open("https://github.com/Dcollectors/JLeaks", "_blank")
 }
+
+const rootStyle = {
+  background: `${back} no-repeat center center fixed`
+}
 </script>
 
 <template>
-  <div class="root">
+  <div class="root" :style="rootStyle">
     <div class="header">
       <div class="link" @click="$router.push({name: 'home'})">Home</div>
       <div class="link" @click="$router.push({name: 'issue'})">Issue Reports</div>
@@ -25,7 +30,7 @@ function handleClickGithub() {
 <style lang="scss" scoped>
 .root {
   // background-image: url("back.avif") no-repeat center center fixed;
-  background: url("back.avif") no-repeat center center fixed;
+  // background: url("back.avif") no-repeat center center fixed;
   // background-size: cover;
 }
 

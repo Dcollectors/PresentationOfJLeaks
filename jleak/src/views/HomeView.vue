@@ -14,7 +14,7 @@ function onClickStart() {
       <h2 class="title2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt culpa vitae, accusamus placeat ipsa velit quasi, magni itaque in quae doloremque quisquam molestiae ea consequatur quo maiores ipsum id eius?</h2>
     
       <div class="button-div">
-        <MyButton @click="onClickStart">START</MyButton>
+        <MyButton @click="onClickStart">Github</MyButton>
       </div>
     </div>
   </main>
